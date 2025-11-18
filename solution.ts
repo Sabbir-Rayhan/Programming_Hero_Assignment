@@ -1,4 +1,3 @@
-// Problem 1
 type ValueType = string | number | boolean
 
 const formatValue = (value : ValueType): ValueType =>{
@@ -12,7 +11,7 @@ const formatValue = (value : ValueType): ValueType =>{
 }
 
 
-// Problem 2
+
 
 type ValueType1 = string | Array<unknown>
 
@@ -27,7 +26,7 @@ const getLength = (value : ValueType1) : number =>{
 }
 
 
-// Problem 3
+
 
 class Person {
   name: string;
@@ -44,7 +43,7 @@ class Person {
 }
 
 
-// Problem 4
+
 
 interface ItemType{
     title : string
@@ -57,7 +56,7 @@ const filterByRating = (items : ItemType[] ) : ItemType[]=>{
 
 
 
-//Problem 5
+
 
 interface UserType{
     id : number
@@ -72,7 +71,6 @@ const filterActiveUsers = (users : UserType[]) : UserType[]=>{
 
 
 
-// Problem 6
 
 interface Book{
     title : string
@@ -89,7 +87,7 @@ const printBookDetails = (book : Book)=>{
 
 
 
-// Problem 7
+
 
 type ara = string | number
 
@@ -126,7 +124,7 @@ const getUniqueValues = (array1 : ara[], array2 : ara[] ) : ara[] =>{
 }
 
 
-// Problem 8
+
 
 interface ProductType{
     name : string
